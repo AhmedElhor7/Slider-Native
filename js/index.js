@@ -82,11 +82,15 @@ document.addEventListener('keydown',function (e) {
         closeSlider();
     }
 });
+
 //  Close If User Click Out Side light box item
 lightBox.addEventListener('click',function (e) {
     closeSlider();
 });
+
 // Stop Bubbling To Arrive light Box Item To All Fuction Working Like Close Or Slide 
 lightBoxItem.addEventListener('click',function (e) {
     e.stopPropagation();
 })
+
+
