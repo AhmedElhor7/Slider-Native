@@ -1,0 +1,31 @@
+.item {
+    cursor: pointer;
+}
+
+.item-caption {
+    width: 80%;
+    bottom: 30px;
+    left: 10%;
+}
+.light-box-container {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.light-box-item {
+    width: 50%;
+    height: 70vh;
+    /* background-image: url('../imgs/portfolio/9.jpg'); */
+    background-size: cover;
+    background-position: center;
+}
+
+#close {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.light-box-item i {
+    font-size: 30px;
+    cursor: pointer;
+}
